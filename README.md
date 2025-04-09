@@ -12,3 +12,12 @@ Staurikosaurus
 Oxalaia
 Uberabatitan
 Ubirajara
+
+Paleta de cores:
+
+#8b796d
+#2d1c24
+#534c2f
+#643b21
+#8c4424
+#C0DE9B
