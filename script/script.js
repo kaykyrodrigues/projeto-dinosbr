@@ -5,7 +5,7 @@ function ClicarIr() {
     var n = document.getElementById('nome')
     var n2 = document.getElementById('n2')
 
-    switch(ClicarIr()) {
+    switch (ClicarIr()) {
         case 0:
             n.innerHTML = 'UBIRAJA'
             break
