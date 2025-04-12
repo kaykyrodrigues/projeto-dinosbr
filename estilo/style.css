@@ -14,16 +14,16 @@ body {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.593);
 }
 
-main {
-    width: 70vw;
-}
-
 header {
     font-size: 0.7em;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.593);
     font-family: 'Oswald';
-    padding: 25px;
+    padding: 40px;
+}
+
+main {
+    width: 70vw;
 }
 
 section {
@@ -70,11 +70,25 @@ section#container2 {
         margin-left: 50px;
     }
 
-    & #oxret {
+    & #imagem {
         margin-top: 10vh;
         margin-left: 7vw;
         border: 2px solid white;
 
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.238);
     }
+}
+
+div#botão {
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex: auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.seta {
+    width: 90px;
 }
