@@ -5,5 +5,11 @@ function ClicarIr() {
     var n = document.getElementById('nome')
     var n2 = document.getElementById('n2')
 
-    n.innerHTML = 'UBIRAJARA'
+    switch(ClicarIr()) {
+        case 0:
+            n.innerHTML = 'UBIRAJA'
+            break
+        default:
+            break
+    }
 }
