@@ -21,5 +21,6 @@ Paleta de cores:
 #643b21
 #8c4424
 #C0DE9B
+#2a3d65
 
             <img src="imagens/oxalaiapng.png" width="400px" alt="Imagem png do dinossauro Oxalaia" id="oxpng">

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrossel Sequencial</title>
+  <style>
+    .slide {
+      display: none;
+    }
+
+    .slide.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="slide active" id="slide1">Slide 1: Bem-vindo!</div>
+  <div class="slide" id="slide2">Slide 2: Conheça nossos produtos</div>
+  <div class="slide" id="slide3">Slide 3: Obrigado pela visita!</div>
+
+  <button onclick="proximoSlide()">Próximo</button>
+
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    let slideAtual = 0;
+
+    function proximoSlide() {
+      // Remove o slide atual
+      slides[slideAtual].classList.remove('active');
+
+      // Avança para o próximo
+      slideAtual = (slideAtual + 1) % slides.length;
+
+      // Mostra o próximo
+      slides[slideAtual].classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
